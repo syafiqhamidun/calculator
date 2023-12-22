@@ -1,5 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500&display=swap");
+.calculator {
+    width: 200px;
+    margin: auto;
+  }
+  
+  .display, .result {
+    background: #f2f2f2;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 5px;
+  }
+  
+  .buttons button {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 2px;
+    cursor: pointer;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
