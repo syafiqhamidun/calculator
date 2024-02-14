@@ -17,3 +17,15 @@ const calculate = () => {
     }
     
 }
+
+document.getElementById('addButton').addEventListener('click', function() {
+    // Get the current number
+    var numberElement = document.getElementById('number');
+    var currentNumber = parseInt(numberElement.innerText);
+
+    // Increment the number by 1
+    var newNumber = currentNumber + 1;
+
+    // Update the number displayed on the webpage
+    numberElement.innerText = newNumber;
+});
